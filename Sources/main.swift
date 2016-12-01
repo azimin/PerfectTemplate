@@ -34,6 +34,28 @@ routes.add(method: .get, uri: "/", handler: {
 	}
 )
 
+routes.add(method: .get, uri: "/cookies/set", handler: {
+  request, response in
+  
+  let cookie = HTTPCookie(name: "my-key", value: "5", domain: nil,
+                          expires: .session, path: "/",
+                          secure: false, httpOnly: false)
+  response.addCookie(cookie)
+  
+  response.completed()
+})
+
+routes.add(method: .get, uri: "/cookies/get", handler: {
+  request, response in
+  
+  for (cookieName, cookieValue) in request.cookies {
+    print(cookieName, cookieValue)
+  }
+  
+  response.completed()
+  
+})
+
 // Add the routes to the server.
 server.addRoutes(routes)
 
@@ -49,6 +71,8 @@ server.documentRoot = "./webroot"
 // Run the server with --help to see the list of supported arguments.
 // Command line arguments will supplant any of the values set above.
 configureServer(server)
+
+server.setResponseFilters([(Filter404(), .high)])
 
 do {
 	// Launch the HTTP server.
