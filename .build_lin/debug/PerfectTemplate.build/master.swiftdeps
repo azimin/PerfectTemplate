@@ -1,7 +1,0 @@
-version: "Swift version 3.0.1 (swift-3.0.1-RELEASE)"
-options: "5ccb365fbf2c6e5b3138955ac3ff67a4"
-build_time: [533949817, 539061000]
-inputs:
-  "/perfectbuild/Sources/arguments.swift": [533362208, 0]
-  "/perfectbuild/Sources/main.swift": [533949810, 0]
-  "/perfectbuild/Sources/requests.swift": [533907432, 0]

@@ -1,5 +1,0 @@
-version: "Swift version 3.0.1 (swift-3.0.1-RELEASE)"
-options: "cab1b66627297ab95986d2275539c266"
-build_time: [533949307, 297962000]
-inputs:
-  "/perfectbuild/Packages/SQLite-2.0.1/Sources/SQLite/SQLite.swift": [533949298, 0]
