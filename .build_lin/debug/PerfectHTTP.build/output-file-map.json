@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/master.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/HTTPFilter.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPFilter.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPFilter.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPFilter~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPFilter.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/HTTPHeaders.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPHeaders.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPHeaders.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPHeaders~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPHeaders.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/HTTPMethod.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPMethod.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPMethod.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPMethod~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPMethod.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/HTTPRequest.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPRequest.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPRequest.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPRequest~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPRequest.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/HTTPResponse.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPResponse.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPResponse.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPResponse~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/HTTPResponse.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/MimeReader.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/MimeReader.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/MimeReader.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/MimeReader~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/MimeReader.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/MimeType.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/MimeType.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/MimeType.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/MimeType~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/MimeType.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/Routing.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/Routing.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/Routing.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/Routing~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/Routing.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTP-2.0.7/Sources/StaticFileHandler.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/StaticFileHandler.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/StaticFileHandler.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/StaticFileHandler~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTP.build/StaticFileHandler.swiftdeps"
+  }
+}

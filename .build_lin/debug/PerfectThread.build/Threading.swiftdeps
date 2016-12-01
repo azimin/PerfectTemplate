@@ -1,0 +1,377 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CLOCK_MONOTONIC"
+- "Threading"
+provides-nominal:
+- "V13PerfectThread9Threading"
+- "CV13PerfectThread9Threading4Lock"
+- "CV13PerfectThread9Threading5Event"
+- "CV13PerfectThread9Threading6RWLock"
+provides-member:
+- ["V13PerfectThread9Threading", ""]
+- ["CV13PerfectThread9Threading4Lock", ""]
+- ["CV13PerfectThread9Threading5Event", ""]
+- ["CV13PerfectThread9Threading6RWLock", ""]
+- ["V13PerfectThread9Threading", "Lock"]
+- ["V13PerfectThread9Threading", "Event"]
+- ["V13PerfectThread9Threading", "RWLock"]
+- ["V13PerfectThread9Threading", "sleep"]
+depends-top-level:
+- "Threading"
+- "pthread_mutex_t"
+- !private "select"
+- !private "-"
+- !private "PTHREAD_MUTEX_RECURSIVE"
+- "pthread_cond_t"
+- !private "/"
+- !private "UnsafeMutablePointer"
+- !private "+="
+- !private "pthread_cond_destroy"
+- !private "pthread_cond_broadcast"
+- !private "pthread_mutex_lock"
+- !private "pthread_rwlock_unlock"
+- !private "UnsafePointer"
+- "AssignmentPrecedence"
+- !private "pthread_mutex_init"
+- !private "=="
+- !private "pthread_condattr_init"
+- !private "timespec"
+- !private "pthread_mutexattr_init"
+- !private "timeval"
+- !private "pthread_rwlock_init"
+- !private "pthread_rwlock_tryrdlock"
+- !private "%"
+- !private "pthread_mutex_trylock"
+- !private "pthread_cond_wait"
+- !private "gettimeofday"
+- !private "pthread_mutex_unlock"
+- !private "pthread_mutexattr_settype"
+- "Bool"
+- !private "pthread_condattr_setclock"
+- !private ">="
+- "CLOCK_MONOTONIC"
+- !private "floor"
+- !private "pthread_condattr_destroy"
+- !private "pthread_cond_timedwait"
+- !private "pthread_mutex_destroy"
+- !private "Int"
+- !private "pthread_rwlock_trywrlock"
+- "pthread_rwlock_t"
+- !private "pthread_mutexattr_t"
+- !private "pthread_rwlock_rdlock"
+- !private "pthread_cond_init"
+- "Int32"
+- !private "pthread_condattr_t"
+- "IntegerLiteralType"
+- !private "clock_gettime"
+- "FloatLiteralType"
+- !private "pthread_rwlock_wrlock"
+- !private "pthread_rwlock_destroy"
+- !private "my_pthread_cond_timedwait_relative_np"
+- "Double"
+- !private "*"
+- !private "pthread_cond_signal"
+depends-member:
+- !private ["Ps9AnyObject", "CLOCK_MONOTONIC"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "Int32"]
+- !private ["Ps9AnyObject", "PTHREAD_MUTEX_RECURSIVE"]
+- !private ["Ps9AnyObject", "Threading"]
+- ["Ps9AnyObject", "broadcast"]
+- ["Ps9AnyObject", "cond"]
+- !private ["Ps9AnyObject", "floor"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lock"]
+- !private ["Ps9AnyObject", "mutex"]
+- !private ["Ps9AnyObject", "my_pthread_cond_timedwait_relative_np"]
+- !private ["Ps9AnyObject", "pthread_cond_broadcast"]
+- !private ["Ps9AnyObject", "pthread_cond_destroy"]
+- !private ["Ps9AnyObject", "pthread_cond_init"]
+- !private ["Ps9AnyObject", "pthread_cond_signal"]
+- ["Ps9AnyObject", "pthread_cond_t"]
+- !private ["Ps9AnyObject", "pthread_cond_wait"]
+- !private ["Ps9AnyObject", "pthread_condattr_destroy"]
+- !private ["Ps9AnyObject", "pthread_condattr_init"]
+- !private ["Ps9AnyObject", "pthread_condattr_setclock"]
+- !private ["Ps9AnyObject", "pthread_condattr_t"]
+- !private ["Ps9AnyObject", "pthread_mutex_destroy"]
+- !private ["Ps9AnyObject", "pthread_mutex_init"]
+- !private ["Ps9AnyObject", "pthread_mutex_lock"]
+- ["Ps9AnyObject", "pthread_mutex_t"]
+- !private ["Ps9AnyObject", "pthread_mutex_trylock"]
+- !private ["Ps9AnyObject", "pthread_mutex_unlock"]
+- !private ["Ps9AnyObject", "pthread_mutexattr_init"]
+- !private ["Ps9AnyObject", "pthread_mutexattr_settype"]
+- !private ["Ps9AnyObject", "pthread_mutexattr_t"]
+- !private ["Ps9AnyObject", "pthread_rwlock_destroy"]
+- !private ["Ps9AnyObject", "pthread_rwlock_init"]
+- !private ["Ps9AnyObject", "pthread_rwlock_rdlock"]
+- ["Ps9AnyObject", "pthread_rwlock_t"]
+- !private ["Ps9AnyObject", "pthread_rwlock_tryrdlock"]
+- !private ["Ps9AnyObject", "pthread_rwlock_trywrlock"]
+- !private ["Ps9AnyObject", "pthread_rwlock_unlock"]
+- !private ["Ps9AnyObject", "pthread_rwlock_wrlock"]
+- !private ["Ps9AnyObject", "readLock"]
+- ["Ps9AnyObject", "signal"]
+- !private ["Ps9AnyObject", "timespec"]
+- !private ["Ps9AnyObject", "unlock"]
+- ["Ps9AnyObject", "wait"]
+- !private ["Ps9AnyObject", "writeLock"]
+- ["Ps9AnyObject", ""]
+- ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "pointee"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "pointee"]
+- ["CV13PerfectThread9Threading5Event", "Bool"]
+- !private ["CV13PerfectThread9Threading5Event", "CLOCK_MONOTONIC"]
+- ["CV13PerfectThread9Threading5Event", "Double"]
+- !private ["CV13PerfectThread9Threading5Event", "Int"]
+- !private ["CV13PerfectThread9Threading5Event", "Threading"]
+- ["CV13PerfectThread9Threading5Event", "broadcast"]
+- ["CV13PerfectThread9Threading5Event", "cond"]
+- ["CV13PerfectThread9Threading5Event", "deinit"]
+- !private ["CV13PerfectThread9Threading5Event", "floor"]
+- ["CV13PerfectThread9Threading5Event", "init"]
+- !private ["CV13PerfectThread9Threading5Event", "mutex"]
+- !private ["CV13PerfectThread9Threading5Event", "my_pthread_cond_timedwait_relative_np"]
+- !private ["CV13PerfectThread9Threading5Event", "pthread_cond_broadcast"]
+- !private ["CV13PerfectThread9Threading5Event", "pthread_cond_destroy"]
+- !private ["CV13PerfectThread9Threading5Event", "pthread_cond_init"]
+- !private ["CV13PerfectThread9Threading5Event", "pthread_cond_signal"]
+- ["CV13PerfectThread9Threading5Event", "pthread_cond_t"]
+- !private ["CV13PerfectThread9Threading5Event", "pthread_cond_wait"]
+- !private ["CV13PerfectThread9Threading5Event", "pthread_condattr_destroy"]
+- !private ["CV13PerfectThread9Threading5Event", "pthread_condattr_init"]
+- !private ["CV13PerfectThread9Threading5Event", "pthread_condattr_setclock"]
+- !private ["CV13PerfectThread9Threading5Event", "pthread_condattr_t"]
+- ["CV13PerfectThread9Threading5Event", "signal"]
+- !private ["CV13PerfectThread9Threading5Event", "timespec"]
+- ["CV13PerfectThread9Threading5Event", "wait"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "pointee"]
+- !private ["Si", "init"]
+- ["Vs5Int32", "init"]
+- ["Ps7Integer", "init"]
+- ["Ps17IntegerArithmetic", "init"]
+- ["CV13PerfectThread9Threading4Lock", "Bool"]
+- !private ["CV13PerfectThread9Threading4Lock", "CLOCK_MONOTONIC"]
+- ["CV13PerfectThread9Threading4Lock", "Double"]
+- !private ["CV13PerfectThread9Threading4Lock", "Int"]
+- !private ["CV13PerfectThread9Threading4Lock", "Int32"]
+- !private ["CV13PerfectThread9Threading4Lock", "PTHREAD_MUTEX_RECURSIVE"]
+- !private ["CV13PerfectThread9Threading4Lock", "Threading"]
+- ["CV13PerfectThread9Threading4Lock", "broadcast"]
+- ["CV13PerfectThread9Threading4Lock", "cond"]
+- ["CV13PerfectThread9Threading4Lock", "deinit"]
+- ["CV13PerfectThread9Threading4Lock", "doWithLock"]
+- !private ["CV13PerfectThread9Threading4Lock", "floor"]
+- ["CV13PerfectThread9Threading4Lock", "init"]
+- ["CV13PerfectThread9Threading4Lock", "lock"]
+- ["CV13PerfectThread9Threading4Lock", "mutex"]
+- !private ["CV13PerfectThread9Threading4Lock", "my_pthread_cond_timedwait_relative_np"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_cond_broadcast"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_cond_destroy"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_cond_init"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_cond_signal"]
+- ["CV13PerfectThread9Threading4Lock", "pthread_cond_t"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_cond_wait"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_condattr_destroy"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_condattr_init"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_condattr_setclock"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_condattr_t"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_mutex_destroy"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_mutex_init"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_mutex_lock"]
+- ["CV13PerfectThread9Threading4Lock", "pthread_mutex_t"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_mutex_trylock"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_mutex_unlock"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_mutexattr_init"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_mutexattr_settype"]
+- !private ["CV13PerfectThread9Threading4Lock", "pthread_mutexattr_t"]
+- ["CV13PerfectThread9Threading4Lock", "signal"]
+- !private ["CV13PerfectThread9Threading4Lock", "timespec"]
+- ["CV13PerfectThread9Threading4Lock", "tryLock"]
+- ["CV13PerfectThread9Threading4Lock", "unlock"]
+- ["CV13PerfectThread9Threading4Lock", "wait"]
+- ["CV13PerfectThread9Threading4Lock", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CV13PerfectThread9Threading6RWLock", "Bool"]
+- ["CV13PerfectThread9Threading6RWLock", "deinit"]
+- ["CV13PerfectThread9Threading6RWLock", "doWithReadLock"]
+- ["CV13PerfectThread9Threading6RWLock", "doWithWriteLock"]
+- ["CV13PerfectThread9Threading6RWLock", "init"]
+- ["CV13PerfectThread9Threading6RWLock", "lock"]
+- !private ["CV13PerfectThread9Threading6RWLock", "pthread_rwlock_destroy"]
+- !private ["CV13PerfectThread9Threading6RWLock", "pthread_rwlock_init"]
+- !private ["CV13PerfectThread9Threading6RWLock", "pthread_rwlock_rdlock"]
+- ["CV13PerfectThread9Threading6RWLock", "pthread_rwlock_t"]
+- !private ["CV13PerfectThread9Threading6RWLock", "pthread_rwlock_tryrdlock"]
+- !private ["CV13PerfectThread9Threading6RWLock", "pthread_rwlock_trywrlock"]
+- !private ["CV13PerfectThread9Threading6RWLock", "pthread_rwlock_unlock"]
+- !private ["CV13PerfectThread9Threading6RWLock", "pthread_rwlock_wrlock"]
+- ["CV13PerfectThread9Threading6RWLock", "readLock"]
+- ["CV13PerfectThread9Threading6RWLock", "tryReadLock"]
+- ["CV13PerfectThread9Threading6RWLock", "tryWriteLock"]
+- ["CV13PerfectThread9Threading6RWLock", "unlock"]
+- ["CV13PerfectThread9Threading6RWLock", "writeLock"]
+- ["Ps13SignedInteger", "init"]
+- ["Ps12SignedNumber", "init"]
+- ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "pointee"]
+- ["V13PerfectThread9Threading", "Bool"]
+- !private ["V13PerfectThread9Threading", "CLOCK_MONOTONIC"]
+- ["V13PerfectThread9Threading", "Double"]
+- ["V13PerfectThread9Threading", "Event"]
+- !private ["V13PerfectThread9Threading", "Int"]
+- !private ["V13PerfectThread9Threading", "Int32"]
+- ["V13PerfectThread9Threading", "Lock"]
+- !private ["V13PerfectThread9Threading", "PTHREAD_MUTEX_RECURSIVE"]
+- ["V13PerfectThread9Threading", "RWLock"]
+- ["V13PerfectThread9Threading", "ThreadClosure"]
+- !private ["V13PerfectThread9Threading", "Threading"]
+- !private ["V13PerfectThread9Threading", "floor"]
+- !private ["V13PerfectThread9Threading", "init"]
+- !private ["V13PerfectThread9Threading", "my_pthread_cond_timedwait_relative_np"]
+- ["V13PerfectThread9Threading", "noTimeout"]
+- !private ["V13PerfectThread9Threading", "pthread_cond_broadcast"]
+- !private ["V13PerfectThread9Threading", "pthread_cond_destroy"]
+- !private ["V13PerfectThread9Threading", "pthread_cond_init"]
+- !private ["V13PerfectThread9Threading", "pthread_cond_signal"]
+- ["V13PerfectThread9Threading", "pthread_cond_t"]
+- !private ["V13PerfectThread9Threading", "pthread_cond_wait"]
+- !private ["V13PerfectThread9Threading", "pthread_condattr_destroy"]
+- !private ["V13PerfectThread9Threading", "pthread_condattr_init"]
+- !private ["V13PerfectThread9Threading", "pthread_condattr_setclock"]
+- !private ["V13PerfectThread9Threading", "pthread_condattr_t"]
+- !private ["V13PerfectThread9Threading", "pthread_mutex_destroy"]
+- !private ["V13PerfectThread9Threading", "pthread_mutex_init"]
+- !private ["V13PerfectThread9Threading", "pthread_mutex_lock"]
+- ["V13PerfectThread9Threading", "pthread_mutex_t"]
+- !private ["V13PerfectThread9Threading", "pthread_mutex_trylock"]
+- !private ["V13PerfectThread9Threading", "pthread_mutex_unlock"]
+- !private ["V13PerfectThread9Threading", "pthread_mutexattr_init"]
+- !private ["V13PerfectThread9Threading", "pthread_mutexattr_settype"]
+- !private ["V13PerfectThread9Threading", "pthread_mutexattr_t"]
+- !private ["V13PerfectThread9Threading", "pthread_rwlock_destroy"]
+- !private ["V13PerfectThread9Threading", "pthread_rwlock_init"]
+- !private ["V13PerfectThread9Threading", "pthread_rwlock_rdlock"]
+- ["V13PerfectThread9Threading", "pthread_rwlock_t"]
+- !private ["V13PerfectThread9Threading", "pthread_rwlock_tryrdlock"]
+- !private ["V13PerfectThread9Threading", "pthread_rwlock_trywrlock"]
+- !private ["V13PerfectThread9Threading", "pthread_rwlock_unlock"]
+- !private ["V13PerfectThread9Threading", "pthread_rwlock_wrlock"]
+- !private ["V13PerfectThread9Threading", "select"]
+- ["V13PerfectThread9Threading", "sleep"]
+- !private ["V13PerfectThread9Threading", "timespec"]
+- !private ["V13PerfectThread9Threading", "timeval"]
+- !private ["SP", "pointee"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "pointee"]
+- ["Ps14_Incrementable", "init"]
+- ["Ps8_Integer", "init"]
+- ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps8_Pointer", "pointee"]
+- ["Ps14_SignedInteger", "init"]
+- ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "pointee"]
+- ["VSC14pthread_cond_t", "init"]
+- !private ["VSC18pthread_condattr_t", "init"]
+- ["VSC15pthread_mutex_t", "init"]
+- !private ["VSC19pthread_mutexattr_t", "init"]
+- ["VSC16pthread_rwlock_t", "init"]
+- !private ["VSC8timespec", "init"]
+- !private ["VSC8timespec", "tv_nsec"]
+- !private ["VSC8timespec", "tv_sec"]
+- !private ["VSC7timeval", "init"]
+- !private ["VSC7timeval", "tv_sec"]
+- !private ["VSC7timeval", "tv_usec"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "CV13PerfectThread9Threading5Event"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- "Vs5Int32"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "CV13PerfectThread9Threading4Lock"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CV13PerfectThread9Threading6RWLock"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- "V13PerfectThread9Threading"
+- !private "SP"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- !private "Ps8_Pointer"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- "VSC14pthread_cond_t"
+- !private "VSC18pthread_condattr_t"
+- "VSC15pthread_mutex_t"
+- !private "VSC19pthread_mutexattr_t"
+- "VSC16pthread_rwlock_t"
+- !private "VSC8timespec"
+- !private "VSC7timeval"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/DispatchShims.h"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/perfectbuild/Packages/SQLite3-2.0.0/module.modulemap"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+- "/swift-3.0.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/perfectbuild/.build_lin/debug/LinuxBridge.build/module.modulemap"
+- "/perfectbuild/Packages/LinuxBridge-2.0.1/LinuxBridge/include/LinuxBridge.h"
+interface-hash: "cf7dd24483107bd00b4d2b4732f93ef1"

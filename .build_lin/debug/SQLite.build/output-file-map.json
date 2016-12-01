@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SQLite.build/master.swiftdeps"
+  },
+  "/perfectbuild/Packages/SQLite-2.0.1/Sources/SQLite/SQLite.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SQLite.build/SQLite.d",
+    "object": "/perfectbuild/.build_lin/debug/SQLite.build/SQLite.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SQLite.build/SQLite~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SQLite.build/SQLite.swiftdeps"
+  }
+}

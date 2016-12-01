@@ -1,0 +1,14 @@
+version: "Swift version 3.0.1 (swift-3.0.1-RELEASE)"
+options: "8e56b30ece3421e17b634c23060abd1a"
+build_time: [533949307, 977967000]
+inputs:
+  "/perfectbuild/Packages/PerfectLib-2.0.4/Sources/PerfectLib/Bytes.swift": [533949256, 0]
+  "/perfectbuild/Packages/PerfectLib-2.0.4/Sources/PerfectLib/Dir.swift": [533949256, 0]
+  "/perfectbuild/Packages/PerfectLib-2.0.4/Sources/PerfectLib/File.swift": [533949256, 0]
+  "/perfectbuild/Packages/PerfectLib-2.0.4/Sources/PerfectLib/JSONConvertible.swift": [533949256, 0]
+  "/perfectbuild/Packages/PerfectLib-2.0.4/Sources/PerfectLib/Log.swift": [533949256, 0]
+  "/perfectbuild/Packages/PerfectLib-2.0.4/Sources/PerfectLib/PerfectError.swift": [533949256, 0]
+  "/perfectbuild/Packages/PerfectLib-2.0.4/Sources/PerfectLib/PerfectServer.swift": [533949256, 0]
+  "/perfectbuild/Packages/PerfectLib-2.0.4/Sources/PerfectLib/SwiftCompatibility.swift": [533949256, 0]
+  "/perfectbuild/Packages/PerfectLib-2.0.4/Sources/PerfectLib/SysProcess.swift": [533949256, 0]
+  "/perfectbuild/Packages/PerfectLib-2.0.4/Sources/PerfectLib/Utilities.swift": [533949256, 0]

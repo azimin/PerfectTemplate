@@ -21,6 +21,11 @@ import PerfectLib
 import PerfectHTTP
 import PerfectHTTPServer
 
+import SQLite
+
+private let dbPath = "database"
+
+
 // Create HTTP server.
 let server = HTTPServer()
 
@@ -54,6 +59,88 @@ routes.add(method: .get, uri: "/cookies/get", handler: {
   
   response.completed()
   
+})
+
+routes.add(method: .get, uri: "/load", handler: {
+  request, response in
+  response.setHeader(.contentType, value: "text/html")
+  
+  var result = Set<String>()
+  
+  do {
+    let sqlite = try SQLite(dbPath)
+    defer {
+      sqlite.close() // This makes sure we close our connection.
+    }
+    
+    let selectAll = "SELECT * FROM test"
+    
+    try sqlite.forEachRow(statement: selectAll, handleRow: { (statement: SQLiteStmt, row: Int) in
+      result.insert(statement.columnText(position: 0))
+    })
+    
+  } catch {
+    //Handle Errors
+  }
+  
+  var text = result.reduce("", { $0 + $1 + ", " })
+  
+  if text.characters.count > 2 {
+    text.removeSubrange(text.index(text.endIndex, offsetBy: -2)..<text.endIndex)
+  }
+  
+  response.appendBody(string: "<html><title></title><body>Best people: \(text)</body></html>")
+  response.completed()
+})
+
+
+routes.add(method: .get, uri: "/add-name", handler: {
+  request, response in
+  
+  response.setHeader(.contentType, value: "application/json")
+  
+  var success = false
+  var result = ""
+  
+  var data: [String: Any] = ["success": success]
+  
+  defer {
+    do {
+      try response.setBody(json: data)
+    } catch {
+      //...
+    }
+    
+    response.completed()
+  }
+  
+  guard let name = request.param(name: "name") else {
+    return
+  }
+  
+  do {
+    let sqlite = try SQLite(dbPath)
+    defer {
+      sqlite.close() // This makes sure we close our connection.
+    }
+    
+    try sqlite.execute(statement: "CREATE TABLE IF NOT EXISTS test (value TEXT NOT NULL)")
+    try sqlite.execute(statement: "INSERT INTO test (value) VALUES ('\(name)')")
+    
+    success = true
+    
+  } catch let error {
+    let sqliteError = (error as? SQLiteError)
+    
+    if let sqliteError = sqliteError {
+      switch sqliteError {
+      case .Error(let code, let msg):
+        result = msg + " \(code)"
+      }
+    }
+  }
+  
+  data = ["success": success]
 })
 
 // Add the routes to the server.

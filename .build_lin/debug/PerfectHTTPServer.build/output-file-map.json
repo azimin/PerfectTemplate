@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/master.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTPServer-2.0.7/Sources/PerfectHTTPServer/HPACK.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HPACK.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HPACK.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HPACK~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HPACK.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTPServer-2.0.7/Sources/PerfectHTTPServer/HTTP11Request.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTP11Request.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTP11Request.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTP11Request~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTP11Request.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTPServer-2.0.7/Sources/PerfectHTTPServer/HTTP11Response.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTP11Response.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTP11Response.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTP11Response~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTP11Response.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTPServer-2.0.7/Sources/PerfectHTTPServer/HTTP2.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTP2.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTP2.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTP2~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTP2.swiftdeps"
+  },
+  "/perfectbuild/Packages/PerfectHTTPServer-2.0.7/Sources/PerfectHTTPServer/HTTPServer.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTPServer.d",
+    "object": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTPServer.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTPServer~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/PerfectHTTPServer.build/HTTPServer.swiftdeps"
+  }
+}
